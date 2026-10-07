@@ -1,0 +1,27 @@
+﻿# Eclipse
+.metadata/
+.settings/
+.externalToolBuilders/
+.recommenders/
+*.launch
+
+# Build output
+build/
+bin/
+target/
+*.class
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# MySQL backup / local DB data
+python_ex_backup.sql
+
+# Local database setup notes
+DBインポート手順.txt
+
+# Logs
+*.log

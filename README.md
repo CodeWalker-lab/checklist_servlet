@@ -26,8 +26,6 @@ mysql -u root -p python_ex < python_ex_backup.sql
 
 ### ◆サーブレット＆JSPの構造
 
-コマンドなどインポート方法を間違っていたら補足説明ください。
-
 ①移行先のMySQLに接続し、空の python_ex データベースを作成します。
 
 CREATE DATABASE python_ex CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;

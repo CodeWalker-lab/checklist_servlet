@@ -24,5 +24,32 @@ CREATE DATABASE python_ex CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 mysql -u root -p python_ex < python_ex_backup.sql
 
+### ◆サーブレット＆JSPの構造
 
+excel/
+ └── src/
+     └── main/
+           ├── java/
+           │    ├── beans/
+           │    │    ├── ProgressBeans.java
+           │    │    └── UserBeans.java
+           │    ├── controller/
+           │    │    ├── AddQuestionServlet.java
+           │    │    ├── ChangePasswordServlet.java
+           │    │    ├── ClassProgressServlet.java
+           │    │    ├── LoginServlet.java
+           │    │    └── LogoutServlet.java
+           │    ├── dao/
+           │    │    ├── AdminDAO.java
+           │    │    ├── LoginDAO.java
+           │    │    └── ProgressDAO.java
+           │    └── filter/
+           │         └── CharacterEncodingFilter.java
+           └── webapp/
+                ├── login.jsp
+                └── WEB-INF/
+                     ├── web.xml
+                     └── jsp/
+                          ├── change_password.jsp
+                          └── class_progress.jsp
 
